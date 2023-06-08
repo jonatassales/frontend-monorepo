@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 export {
   Sun,
@@ -10,7 +10,7 @@ export {
   UserList,
   SignOut,
   SquaresFour,
-  Layout,
-} from "@phosphor-icons/react";
+  Layout
+} from '@phosphor-icons/react'
 
-export type { Icon } from "@phosphor-icons/react";
+export type { Icon } from '@phosphor-icons/react'
