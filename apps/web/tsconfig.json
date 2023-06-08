@@ -1,0 +1,18 @@
+{
+  "extends": "@frontend/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/atoms": ["app/_atoms"],
+      "@app/components": ["app/_components"],
+      "@app/hooks": ["app/_hooks"],
+      "@app/types": ["app/_types"],
+      "@app/utils": ["app/_utils"],
+      "@app/providers": ["app/_providers"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
