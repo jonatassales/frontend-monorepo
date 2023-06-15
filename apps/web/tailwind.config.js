@@ -243,10 +243,7 @@ const tokens = {
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  content: [
-    './public/**/*.html',
-    './app/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./public/**/*.html', './app/**/*.{js,ts,jsx,tsx}'],
   darkMode: ['class'],
   theme: {
     extend: {
@@ -261,7 +258,6 @@ module.exports = {
       fontSize: tokens.fontSize,
       fontWeight: tokens.fontWeight,
       lineHeight: tokens.lineHeight,
-      opacity: tokens.opacity,
       zIndex: tokens.zIndex
     }
   },
