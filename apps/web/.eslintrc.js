@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['frontend']
+  extends: ['next', 'next/core-web-vitals', 'frontend']
 }

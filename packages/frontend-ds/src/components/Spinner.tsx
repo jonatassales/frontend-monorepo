@@ -1,5 +1,3 @@
-'use client'
-
 import { styled, keyframes } from '@stitches/react'
 
 const rotation = keyframes({

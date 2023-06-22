@@ -1,10 +1,5 @@
 module.exports = {
-  extends: ['next', 'next/core-web-vitals', 'turbo', 'prettier'],
-  settings: {
-    next: {
-      rootDir: './src'
-    }
-  },
+  extends: ['turbo', 'prettier'],
   plugins: ['prettier', '@typescript-eslint', 'react-hooks'],
   parser: '@typescript-eslint/parser',
   rules: {
@@ -13,7 +8,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'],
-    '@typescript-eslint/prefer-nullish-coalescing': 'warn',
     '@next/next/no-html-link-for-pages': 'off',
     'no-nested-ternary': 'error',
     'react-hooks/rules-of-hooks': 'error',

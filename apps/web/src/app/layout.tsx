@@ -1,3 +1,4 @@
+import React from 'react'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@app/providers'
 import { Layout } from '@app/components'

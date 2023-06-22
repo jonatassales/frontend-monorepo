@@ -1,5 +1,3 @@
-'use client'
-
 import * as ToastPrimitive from '@radix-ui/react-toast'
 import { styled, keyframes } from '@stitches/react'
 import { slate } from '@radix-ui/colors'

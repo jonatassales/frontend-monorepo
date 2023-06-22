@@ -1,5 +1,3 @@
-'use client'
-
 import * as FormPrimitive from '@radix-ui/react-form'
 import { styled } from '@stitches/react'
 

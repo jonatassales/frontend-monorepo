@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { Layout, User, UserList, Gear, SquaresFour } from '@frontend/ds'
 

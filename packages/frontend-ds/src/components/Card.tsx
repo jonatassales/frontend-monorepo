@@ -1,5 +1,3 @@
-'use client'
-
 import { styled } from '@stitches/react'
 
 const StyledCard = styled('div', {

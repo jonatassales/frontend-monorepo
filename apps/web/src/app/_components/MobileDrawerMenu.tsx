@@ -1,3 +1,5 @@
+'use client'
+
 import { cn } from '@app/utils'
 import { Separator, TagInfo, ToggleGroup, ToggleGroupItem } from '@frontend/ds'
 import { ColorModeSwitcher, UserAvatar, SideMenu } from './'

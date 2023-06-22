@@ -1,5 +1,3 @@
-'use client'
-
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu'
 import { styled, keyframes } from '@stitches/react'
 import { violet, mauve } from '@radix-ui/colors'
