@@ -23,7 +23,9 @@ export function MobileLayout(props: LayoutProps) {
             development
           </Tag>
         </div>
-        <IconButton>{drawerOpen ? <>closed</> : <>open</>}</IconButton>
+        <IconButton onClick={handleDrawerToggle}>
+          {drawerOpen ? <>closed</> : <>open</>}
+        </IconButton>
       </header>
       <MobileDrawerMenu isOpen={drawerOpen} />
       <main className="flex flex-col bg-primary-25 p-20 dark:bg-[#111322]">
